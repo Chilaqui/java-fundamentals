@@ -30,30 +30,64 @@ public class App {
         //trimp nos quita los espacios de al principio y al final
         String sinEspacios = texto.trim();
 
+        //startsWith Verifica si el texto empieza con el prefijo dado
+        boolean prefijo = texto.trim().startsWith("Este");
+
 
 
         //Souts
         //Muestra solo el textp
         System.out.println(texto);
 
+        System.out.println("---------------");
+
         //length
         System.out.println(longitud);
+
+        System.out.println("---------------");
+
         //charAt
         System.out.println(caracter);
+
+        System.out.println("---------------");
+
         //substring
         System.out.println(subString);
+
+        System.out.println("---------------");
+
         //toLowerCase
         System.out.println(minuscula);
+
+        System.out.println("---------------");
+
         //toUpperCase
         System.out.println(mayuscula);
+
+        System.out.println("---------------");
+
         //indexOf
         System.out.println(indice);
+
+        System.out.println("---------------");
+
         //remplace
         System.out.println(resmplazado);
+
+        System.out.println("---------------");
+
         //contains
         System.out.println(contiene);
+
+        System.out.println("---------------");
+
         //trimp
         System.out.println(sinEspacios);
+
+        System.out.println("---------------");
+
+        //startsWith
+        System.out.println(prefijo);
 
 
     }
