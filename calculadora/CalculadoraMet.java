@@ -23,7 +23,8 @@ public class CalculadoraMet {
         private int num1;
         private int num2;
 
-        public Operaciones(int num1, int num2){
+        public Operaciones(){
+
 
         }
 
@@ -45,10 +46,10 @@ public class CalculadoraMet {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
     Menu menu = new Menu();
-    Operaciones op = new Operaciones(a, b);
+    Operaciones op = new Operaciones();
 
     menu.mostrarMenu();
-    System.out.println("Eleccion");
+    System.out.println("Opcion");
     int opcion = input.nextLine(); 
 
     if (condition) {
