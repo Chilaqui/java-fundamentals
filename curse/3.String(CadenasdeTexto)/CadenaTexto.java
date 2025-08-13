@@ -1,4 +1,4 @@
-public class App {
+public class CadenaTexto {
     public static void main(String[] args) {
         String texto = "     Este es un Texto Asignado a una variable String";
 
@@ -88,6 +88,8 @@ public class App {
 
         //startsWith
         System.out.println(prefijo);
+
+        System.out.println("---------------");
 
 
     }
